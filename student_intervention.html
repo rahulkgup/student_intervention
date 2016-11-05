@@ -225,7 +225,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[271]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Import libraries</span>
@@ -250,197 +250,7 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>    school sex  age address famsize Pstatus  Medu  Fedu      Mjob      Fjob  \
-0       GP   F   18       U     GT3       A     4     4   at_home   teacher   
-1       GP   F   17       U     GT3       T     1     1   at_home     other   
-2       GP   F   15       U     LE3       T     1     1   at_home     other   
-3       GP   F   15       U     GT3       T     4     2    health  services   
-4       GP   F   16       U     GT3       T     3     3     other     other   
-5       GP   M   16       U     LE3       T     4     3  services     other   
-6       GP   M   16       U     LE3       T     2     2     other     other   
-7       GP   F   17       U     GT3       A     4     4     other   teacher   
-8       GP   M   15       U     LE3       A     3     2  services     other   
-9       GP   M   15       U     GT3       T     3     4     other     other   
-10      GP   F   15       U     GT3       T     4     4   teacher    health   
-11      GP   F   15       U     GT3       T     2     1  services     other   
-12      GP   M   15       U     LE3       T     4     4    health  services   
-13      GP   M   15       U     GT3       T     4     3   teacher     other   
-14      GP   M   15       U     GT3       A     2     2     other     other   
-15      GP   F   16       U     GT3       T     4     4    health     other   
-16      GP   F   16       U     GT3       T     4     4  services  services   
-17      GP   F   16       U     GT3       T     3     3     other     other   
-18      GP   M   17       U     GT3       T     3     2  services  services   
-19      GP   M   16       U     LE3       T     4     3    health     other   
-20      GP   M   15       U     GT3       T     4     3   teacher     other   
-21      GP   M   15       U     GT3       T     4     4    health    health   
-22      GP   M   16       U     LE3       T     4     2   teacher     other   
-23      GP   M   16       U     LE3       T     2     2     other     other   
-24      GP   F   15       R     GT3       T     2     4  services    health   
-25      GP   F   16       U     GT3       T     2     2  services  services   
-26      GP   M   15       U     GT3       T     2     2     other     other   
-27      GP   M   15       U     GT3       T     4     2    health  services   
-28      GP   M   16       U     LE3       A     3     4  services     other   
-29      GP   M   16       U     GT3       T     4     4   teacher   teacher   
-..     ...  ..  ...     ...     ...     ...   ...   ...       ...       ...   
-365     MS   M   18       R     GT3       T     1     3   at_home     other   
-366     MS   M   18       U     LE3       T     4     4   teacher  services   
-367     MS   F   17       R     GT3       T     1     1     other  services   
-368     MS   F   18       U     GT3       T     2     3   at_home  services   
-369     MS   F   18       R     GT3       T     4     4     other   teacher   
-370     MS   F   19       U     LE3       T     3     2  services  services   
-371     MS   M   18       R     LE3       T     1     2   at_home  services   
-372     MS   F   17       U     GT3       T     2     2     other   at_home   
-373     MS   F   17       R     GT3       T     1     2     other     other   
-374     MS   F   18       R     LE3       T     4     4     other     other   
-375     MS   F   18       R     GT3       T     1     1     other     other   
-376     MS   F   20       U     GT3       T     4     2    health     other   
-377     MS   F   18       R     LE3       T     4     4   teacher  services   
-378     MS   F   18       U     GT3       T     3     3     other     other   
-379     MS   F   17       R     GT3       T     3     1   at_home     other   
-380     MS   M   18       U     GT3       T     4     4   teacher   teacher   
-381     MS   M   18       R     GT3       T     2     1     other     other   
-382     MS   M   17       U     GT3       T     2     3     other  services   
-383     MS   M   19       R     GT3       T     1     1     other  services   
-384     MS   M   18       R     GT3       T     4     2     other     other   
-385     MS   F   18       R     GT3       T     2     2   at_home     other   
-386     MS   F   18       R     GT3       T     4     4   teacher   at_home   
-387     MS   F   19       R     GT3       T     2     3  services     other   
-388     MS   F   18       U     LE3       T     3     1   teacher  services   
-389     MS   F   18       U     GT3       T     1     1     other     other   
-390     MS   M   20       U     LE3       A     2     2  services  services   
-391     MS   M   17       U     LE3       T     3     1  services  services   
-392     MS   M   21       R     GT3       T     1     1     other     other   
-393     MS   M   18       R     LE3       T     3     2  services     other   
-394     MS   M   19       U     LE3       T     1     1     other   at_home   
-
-     ...   internet romantic  famrel  freetime  goout Dalc Walc health  \
-0    ...         no       no       4         3      4    1    1      3   
-1    ...        yes       no       5         3      3    1    1      3   
-2    ...        yes       no       4         3      2    2    3      3   
-3    ...        yes      yes       3         2      2    1    1      5   
-4    ...         no       no       4         3      2    1    2      5   
-5    ...        yes       no       5         4      2    1    2      5   
-6    ...        yes       no       4         4      4    1    1      3   
-7    ...         no       no       4         1      4    1    1      1   
-8    ...        yes       no       4         2      2    1    1      1   
-9    ...        yes       no       5         5      1    1    1      5   
-10   ...        yes       no       3         3      3    1    2      2   
-11   ...        yes       no       5         2      2    1    1      4   
-12   ...        yes       no       4         3      3    1    3      5   
-13   ...        yes       no       5         4      3    1    2      3   
-14   ...        yes      yes       4         5      2    1    1      3   
-15   ...        yes       no       4         4      4    1    2      2   
-16   ...        yes       no       3         2      3    1    2      2   
-17   ...         no       no       5         3      2    1    1      4   
-18   ...        yes       no       5         5      5    2    4      5   
-19   ...        yes       no       3         1      3    1    3      5   
-20   ...        yes       no       4         4      1    1    1      1   
-21   ...        yes       no       5         4      2    1    1      5   
-22   ...        yes       no       4         5      1    1    3      5   
-23   ...        yes       no       5         4      4    2    4      5   
-24   ...        yes       no       4         3      2    1    1      5   
-25   ...        yes       no       1         2      2    1    3      5   
-26   ...        yes       no       4         2      2    1    2      5   
-27   ...        yes       no       2         2      4    2    4      1   
-28   ...        yes       no       5         3      3    1    1      5   
-29   ...        yes      yes       4         4      5    5    5      5   
-..   ...        ...      ...     ...       ...    ...  ...  ...    ...   
-365  ...         no       no       3         3      4    2    4      3   
-366  ...        yes      yes       4         2      2    2    2      5   
-367  ...        yes      yes       5         2      1    1    2      1   
-368  ...        yes      yes       5         2      3    1    2      4   
-369  ...        yes      yes       3         2      2    4    2      5   
-370  ...         no      yes       3         2      2    1    1      3   
-371  ...        yes      yes       4         3      3    2    3      3   
-372  ...         no      yes       3         4      3    1    1      3   
-373  ...        yes       no       3         5      5    1    3      1   
-374  ...        yes       no       5         4      4    1    1      1   
-375  ...        yes       no       4         3      2    1    2      4   
-376  ...        yes      yes       5         4      3    1    1      3   
-377  ...        yes       no       5         4      3    3    4      2   
-378  ...        yes      yes       4         1      3    1    2      1   
-379  ...        yes       no       4         5      4    2    3      1   
-380  ...        yes       no       3         2      4    1    4      2   
-381  ...        yes      yes       4         4      3    1    3      5   
-382  ...        yes       no       4         4      3    1    1      3   
-383  ...         no       no       4         3      2    1    3      5   
-384  ...         no       no       5         4      3    4    3      3   
-385  ...         no       no       5         3      3    1    3      4   
-386  ...        yes      yes       4         4      3    2    2      5   
-387  ...        yes       no       5         4      2    1    2      5   
-388  ...        yes       no       4         3      4    1    1      1   
-389  ...         no       no       1         1      1    1    1      5   
-390  ...         no       no       5         5      4    4    5      4   
-391  ...        yes       no       2         4      5    3    4      2   
-392  ...         no       no       5         5      3    3    3      3   
-393  ...        yes       no       4         4      1    3    4      5   
-394  ...        yes       no       3         2      3    3    3      5   
-
-    absences passed  
-0          6     no  
-1          4     no  
-2         10    yes  
-3          2    yes  
-4          4    yes  
-5         10    yes  
-6          0    yes  
-7          6     no  
-8          0    yes  
-9          0    yes  
-10         0     no  
-11         4    yes  
-12         2    yes  
-13         2    yes  
-14         0    yes  
-15         4    yes  
-16         6    yes  
-17         4    yes  
-18        16     no  
-19         4    yes  
-20         0    yes  
-21         0    yes  
-22         2    yes  
-23         0    yes  
-24         2     no  
-25        14     no  
-26         2    yes  
-27         4    yes  
-28         4    yes  
-29        16    yes  
-..       ...    ...  
-365        4    yes  
-366        0    yes  
-367        0     no  
-368        0    yes  
-369       10    yes  
-370        4     no  
-371        3    yes  
-372        8    yes  
-373       14     no  
-374        0    yes  
-375        2    yes  
-376        4    yes  
-377        4    yes  
-378        0    yes  
-379       17    yes  
-380        4    yes  
-381        5     no  
-382        2    yes  
-383        0     no  
-384       14     no  
-385        2    yes  
-386        7     no  
-387        0     no  
-388        0     no  
-389        0     no  
-390       11     no  
-391        3    yes  
-392        3     no  
-393        0    yes  
-394        5     no  
-
-[395 rows x 31 columns]
-Student data read successfully!
+<pre>Student data read successfully!
 </pre>
 </div>
 </div>
@@ -468,14 +278,14 @@ Student data read successfully!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[228]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Calculate number of students</span>
 <span class="n">n_students</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">student_data</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> 
 
 <span class="c1"># TODO: Calculate number of features</span>
-<span class="n">n_features</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">student_data</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
+<span class="n">n_features</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">student_data</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="c1"># -1 is to exclude our target column.</span>
 
 <span class="c1"># TODO: Calculate passing students</span>
 <span class="n">n_passed</span> <span class="o">=</span> <span class="n">student_data</span><span class="p">[</span><span class="s1">&#39;passed&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()[</span><span class="s1">&#39;yes&#39;</span><span class="p">]</span>
@@ -505,7 +315,7 @@ Student data read successfully!
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Total number of students: 395
-Number of features: 31
+Number of features: 30
 Number of students who passed: 265
 Number of students who failed: 130
 Graduation rate of the class: 67.09%
@@ -531,7 +341,7 @@ Graduation rate of the class: 67.09%
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[230]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Extract feature columns</span>
@@ -551,6 +361,12 @@ Graduation rate of the class: 67.09%
 <span class="c1"># Show the feature information by printing the first five rows</span>
 <span class="k">print</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Feature values:&quot;</span>
 <span class="k">print</span> <span class="n">X_all</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+
+<span class="c1"># In this project we use the F1 score. </span>
+<span class="c1"># As a benchmark for our final model, we can use the F1 score from predicting all &quot;yes&quot; values.</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">f1_score</span>
+<span class="k">print</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">F1 score for predicting all &#39;yes&#39;: {:.4f}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+    <span class="n">f1_score</span><span class="p">(</span><span class="n">y_true</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;yes&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">n_passed</span> <span class="o">+</span> <span class="p">[</span><span class="s1">&#39;no&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">n_failed</span><span class="p">,</span> <span class="n">y_pred</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;yes&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">n_students</span><span class="p">,</span> <span class="n">pos_label</span><span class="o">=</span><span class="s1">&#39;yes&#39;</span><span class="p">,</span> <span class="n">average</span><span class="o">=</span><span class="s1">&#39;binary&#39;</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -591,6 +407,8 @@ Feature values:
 4        4  
 
 [5 rows x 30 columns]
+
+F1 score for predicting all &apos;yes&apos;: 0.8030
 </pre>
 </div>
 </div>
@@ -684,10 +502,11 @@ Feature values:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[260]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Import any additional functionality you may need here</span>
+<span class="kn">from</span> <span class="nn">sklearn.cross_validation</span> <span class="kn">import</span> <span class="n">train_test_split</span>
 
 <span class="c1"># TODO: Set the number of training points</span>
 <span class="n">num_train</span> <span class="o">=</span> <span class="mi">300</span>
@@ -696,14 +515,24 @@ Feature values:
 <span class="n">num_test</span> <span class="o">=</span> <span class="n">X_all</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="n">num_train</span>
 
 <span class="c1"># TODO: Shuffle and split the dataset into the number of training and testing points above</span>
-<span class="n">X_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">X_all</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="n">num_train</span><span class="p">)</span>
-<span class="n">X_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">X_all</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="n">num_test</span><span class="p">)</span>
-<span class="n">y_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">y_all</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="n">num_train</span><span class="p">)</span>
-<span class="n">y_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">y_all</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="n">num_test</span><span class="p">)</span>
+<span class="c1">#X_train = np.random.randint(X_all.shape[0], size=num_train)</span>
+<span class="c1">#X_test = np.random.randint(X_all.shape[0], size=num_test)</span>
+<span class="c1">#y_train = np.random.randint(y_all.shape[0], size=num_train)</span>
+<span class="c1">#y_test = np.random.randint(y_all.shape[0], size=num_test)</span>
+
+<span class="n">X_all</span> <span class="o">=</span> <span class="n">preprocess_features</span><span class="p">(</span><span class="n">X_all</span><span class="p">)</span>
+<span class="c1">#y_all = preprocess_features(y_all)</span>
+
+<span class="c1"># to preserve the class imbalance we are using the &quot;stratify&quot; parameter </span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X_all</span><span class="p">,</span> <span class="n">y_all</span><span class="p">,</span> <span class="n">stratify</span><span class="o">=</span><span class="n">y_all</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.24</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
 
 <span class="c1"># Show the results of the split</span>
 <span class="k">print</span> <span class="s2">&quot;Training set has {} samples.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">X_train</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="k">print</span> <span class="s2">&quot;Testing set has {} samples.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">X_test</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+
+<span class="k">print</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Grad rates:</span><span class="se">\n</span><span class="s2">Train set = {:.2f}%&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mi">100</span> <span class="o">*</span> <span class="p">(</span><span class="n">y_train</span> <span class="o">==</span> <span class="s1">&#39;yes&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+<span class="k">print</span> <span class="s2">&quot;Test set = {:.2f}%&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mi">100</span> <span class="o">*</span> <span class="p">(</span><span class="n">y_test</span> <span class="o">==</span> <span class="s1">&#39;yes&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
 </pre></div>
 
 </div>
@@ -718,6 +547,10 @@ Feature values:
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Training set has 300 samples.
 Testing set has 95 samples.
+
+Grad rates:
+Train set = 67.00%
+Test set = 67.37%
 </pre>
 </div>
 </div>
@@ -753,33 +586,81 @@ Testing set has 95 samples.
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
 <p><b>Support Vector Machines</b> belong to the discriminant model family: they try to find a combination of samples to build a plane maximizing the margin between the two classes. <br></p>
-<p>Strengths of SVM are:
-     SVM work really well in complicated domains where there is a clear margin of separation.</p>
-<p>Weaknesses of SVM include:
-     They don't perform so well in very large data sets, because the training time happens to be cubic in the size of the data set.
-    They also don't work well with lots and lots of noise.</p>
-<p><b>Naive Bayes</b> methods are a set of supervised learning algorithms based on applying Bayes’ theorem with the “naive” assumption of independence between every pair of features. <br></p>
-<p>Strengths of NB are:
-Simple, fast, highly scalable model building and scoring.</p>
-<p>Weaknesses of NB include:
-It has strong feature independence assumptions</p>
+<p>General Applications</p>
+
+<pre><code>    SVMs are useful for:
+    Gene Expression Data Classification. 
+    Text and Hypertext Categorization. 
+    Classification of images.
+
+</code></pre>
+<p>Strengths:</p>
+
+<pre><code>    SVM work really well in complicated domains where there is a clear margin of separation.
+
+</code></pre>
+<p>Weaknesses:</p>
+
+<pre><code>    Don't perform well in very large data sets, b'coz training time happens to be cubic in the size of the data set. 
+    They also don't work well with lots and lots of noise.
+
+</code></pre>
+<p>Reasons for Choosing</p>
+
+<pre><code>    As a non-linear classifier with given feature length would make the use of kernels very effective.
+
+</code></pre>
+<p><b>Gaussian Naive Bayes</b> methods are a set of supervised learning algorithms based on applying Bayes’ theorem with the “naive” assumption of independence between every pair of features. <br></p>
+<p>General Applications</p>
+
+<pre><code>    GaussianNB is useful in: 
+    Text classification such as to mark email spam or not spam. 
+    Classify news articles about technology, politics or soprts.
+    Check a piece of text expressing positive emotions or negative emotions. 
+    Face recongnition.
+
+</code></pre>
+<p>Strengths:</p>
+
+<pre><code>    Simple, fast, highly scalable model building and scoring.
+
+</code></pre>
+<p>Weaknesses:</p>
+
+<pre><code>    It has strong feature independence assumptions. 
+
+</code></pre>
+<p>Reasons for Choosing</p>
+
+<pre><code>    NB is fast and works well small, noisy dataset.
+
+
+</code></pre>
 <p><b>Decision Trees (DTs)</b> are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features.</p>
-<p>Strengths of decision trees are:</p>
+<p>General Applications</p>
+
+<pre><code>    Decision trees are useful for classification and regression in many fields, 
+    including Medical diagnosis, Manufacturing, and Insurance.
+
+</code></pre>
+<p>Strengths:</p>
 
 <pre><code>    Simple to understand and to interpret. Trees can be visualised.
-    Requires little data preparation. 
     The cost of using the tree is logarithmic in the number of data points used to train the tree.
-    Able to handle multi-output problems.
-    Uses a white box model. 
     Performs well even if its assumptions are somewhat violated by the true model from which the data were generated.
 
 </code></pre>
-<p>Weaknesses of decision trees include:</p>
+<p>Weaknesses:</p>
 
 <pre><code>    Decision-tree learners can create over-complex trees that do not generalise the data well. 
     DTs can be unstable because small variations in data might result in a completely different tree being generated. 
-    XOR, parity or multiplexer problems are hard to learn because decision trees do not express them easily.
-    Decision tree learners create biased trees if some classes dominate. </code></pre>
+    Decision tree learners create biased trees if some classes dominate. 
+
+</code></pre>
+<p>Reasons for Choosing</p>
+
+<pre><code>    As a non-linear classifier it may be able to predict the data well.
+    Also nice that it can produce a model which can be interpreted and discern rules of classification.</code></pre>
 
 </div>
 </div>
@@ -816,7 +697,7 @@ It has strong feature independence assumptions</p>
     <span class="n">end</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span>
     
     <span class="c1"># Print the results</span>
-    <span class="c1">#print &quot;Trained model in {:.4f} seconds&quot;.format(end - start)</span>
+    <span class="k">print</span> <span class="s2">&quot;Trained model in {:.4f} seconds&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">end</span> <span class="o">-</span> <span class="n">start</span><span class="p">)</span>
     <span class="k">return</span> <span class="p">(</span><span class="n">end</span> <span class="o">-</span> <span class="n">start</span><span class="p">)</span>
 
     
@@ -829,7 +710,7 @@ It has strong feature independence assumptions</p>
     <span class="n">end</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span>
     
     <span class="c1"># Print and return results</span>
-    <span class="c1">#print &quot;Made predictions in {:.4f} seconds.&quot;.format(end - start)</span>
+    <span class="k">print</span> <span class="s2">&quot;Made predictions in {:.4f} seconds.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">end</span> <span class="o">-</span> <span class="n">start</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">f1_score</span><span class="p">(</span><span class="n">target</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">,</span> <span class="n">pos_label</span><span class="o">=</span><span class="s1">&#39;yes&#39;</span><span class="p">),</span> <span class="p">(</span><span class="n">end</span> <span class="o">-</span> <span class="n">start</span><span class="p">)</span>
 
 
@@ -837,7 +718,7 @@ It has strong feature independence assumptions</p>
     <span class="sd">&#39;&#39;&#39; Train and predict using a classifer based on F1 score. &#39;&#39;&#39;</span>
     
     <span class="c1"># Indicate the classifier and the training set size</span>
-    <span class="c1">#print &quot;Training a {} using a training set size of {}. . .&quot;.format(clf.__class__.__name__, len(X_train))</span>
+    <span class="k">print</span> <span class="s2">&quot;Training a {} using a training set size of {}. . .&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">clf</span><span class="o">.</span><span class="n">__class__</span><span class="o">.</span><span class="n">__name__</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">X_train</span><span class="p">))</span>
     
     <span class="c1"># Train the classifier</span>
     <span class="n">training_time</span> <span class="o">=</span> <span class="n">train_classifier</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
@@ -847,8 +728,8 @@ It has strong feature independence assumptions</p>
     
     <span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">()</span>
     <span class="c1"># Print the results of prediction for both training and testing</span>
-    <span class="c1">#print &quot;F1 score for training set: {:.4f}.&quot;.format(f1_score_train)</span>
-    <span class="c1">#print &quot;F1 score for test set: {:.4f}.&quot;.format(f1_score_test)</span>
+    <span class="k">print</span> <span class="s2">&quot;F1 score for training set: {:.4f}.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">f1_score_train</span><span class="p">)</span>
+    <span class="k">print</span> <span class="s2">&quot;F1 score for test set: {:.4f}.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">f1_score_test</span><span class="p">)</span>
     <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">X_train</span><span class="p">)))</span>
     <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">training_time</span><span class="p">,</span><span class="mi">4</span><span class="p">)))</span>
     <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">prediction_time_test</span><span class="p">,</span><span class="mi">4</span><span class="p">)))</span>
@@ -888,7 +769,7 @@ It has strong feature independence assumptions</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[180]:</div>
+<div class="prompt input_prompt">In&nbsp;[264]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Import the three supervised learning models from sklearn</span>
@@ -913,19 +794,17 @@ It has strong feature independence assumptions</p>
 <span class="c1"># TODO: Execute the &#39;train_predict&#39; function for each classifier and each training set size</span>
 <span class="c1"># train_predict(clf, X_train, y_train, X_test, y_test)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Tabular Results&quot;</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="n">x</span><span class="o">=</span><span class="mi">0</span>
-<span class="k">for</span> <span class="n">clf</span> <span class="ow">in</span> <span class="n">clfs</span><span class="p">:</span>     
-    <span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Tabular Results&quot;</span><span class="p">)</span>
+<span class="c1"># TODO: loop thru models</span>
+<span class="k">for</span> <span class="n">clf</span> <span class="ow">in</span> <span class="n">clfs</span><span class="p">:</span>
+    <span class="c1"># show the estimator type</span>
+    <span class="k">print</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Classifier - {}: </span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">clf</span><span class="o">.</span><span class="n">__class__</span><span class="o">.</span><span class="n">__name__</span><span class="p">)</span>
     <span class="n">t</span> <span class="o">=</span> <span class="n">PrettyTable</span><span class="p">([</span><span class="s1">&#39;Training Set Size&#39;</span><span class="p">,</span> <span class="s1">&#39;Training Time&#39;</span><span class="p">,</span> <span class="s1">&#39;Prediction Time (test)&#39;</span><span class="p">,</span> <span class="s1">&#39;F1 Score (train)&#39;</span><span class="p">,</span> <span class="s1">&#39;F1 Score (test)&#39;</span><span class="p">])</span>
-    <span class="k">for</span> <span class="n">size</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="mi">300</span><span class="p">):</span>
-        <span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">cross_validation</span><span class="o">.</span><span class="n">train_test_split</span><span class="p">(</span><span class="n">X_all</span><span class="p">,</span> <span class="n">y_all</span><span class="p">,</span> <span class="n">train_size</span><span class="o">=</span><span class="n">size</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-        <span class="n">t</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="n">train_predict</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">))</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Classifer {} - ?&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>   
-    <span class="k">print</span> <span class="n">t</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="c1"># TODO: loop thru training sizes</span>
+    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">):</span>
+        <span class="c1"># create training data from first 100, then 200, then 300 points</span>
+        <span class="n">t</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="n">train_predict</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X_train</span><span class="p">[:</span><span class="n">n</span><span class="p">],</span> <span class="n">y_train</span><span class="p">[:</span><span class="n">n</span><span class="p">],</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">))</span>
+    <span class="k">print</span> <span class="n">t</span>        
 </pre></div>
 
 </div>
@@ -939,40 +818,37 @@ It has strong feature independence assumptions</p>
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
-
 Tabular Results
 
+Classifer - SVC : 
 
-Classifer 1 - ?
 +-------------------+---------------+------------------------+------------------+-----------------+
 | Training Set Size | Training Time | Prediction Time (test) | F1 Score (train) | F1 Score (test) |
 +-------------------+---------------+------------------------+------------------+-----------------+
-|        100        |     0.005     |          0.0           |      0.9467      |      0.6997     |
-|        200        |      0.01     |         0.001          |      0.8787      |      0.7405     |
-|        300        |     0.039     |         0.001          |      0.8421      |      0.7826     |
+|        100        |     0.009     |          0.0           |      0.8806      |      0.7463     |
+|        200        |     0.018     |         0.001          |      0.8622      |      0.7647     |
+|        300        |     0.042     |         0.001          |      0.8421      |      0.7826     |
 +-------------------+---------------+------------------------+------------------+-----------------+
 
+Classifer - GaussianNB : 
 
-Classifer 2 - ?
 +-------------------+---------------+------------------------+------------------+-----------------+
 | Training Set Size | Training Time | Prediction Time (test) | F1 Score (train) | F1 Score (test) |
 +-------------------+---------------+------------------------+------------------+-----------------+
-|        100        |     0.001     |         0.001          |      0.4468      |      0.3636     |
-|        200        |     0.001     |          0.0           |      0.7926      |      0.7331     |
-|        300        |     0.002     |          0.0           |      0.8088      |       0.75      |
+|        100        |     0.001     |          0.0           |      0.855       |      0.7481     |
+|        200        |     0.001     |         0.001          |      0.8321      |      0.7132     |
+|        300        |     0.002     |         0.001          |      0.8088      |       0.75      |
 +-------------------+---------------+------------------------+------------------+-----------------+
 
+Classifer - DecisionTreeClassifier : 
 
-Classifer 3 - ?
 +-------------------+---------------+------------------------+------------------+-----------------+
 | Training Set Size | Training Time | Prediction Time (test) | F1 Score (train) | F1 Score (test) |
 +-------------------+---------------+------------------------+------------------+-----------------+
-|        100        |     0.001     |          0.0           |       1.0        |      0.6947     |
-|        200        |     0.001     |         0.001          |       1.0        |      0.7519     |
-|        300        |     0.002     |          0.0           |       1.0        |      0.7541     |
+|        100        |     0.001     |          0.0           |       1.0        |      0.6903     |
+|        200        |     0.002     |          0.0           |       1.0        |       0.72      |
+|        300        |     0.003     |          0.0           |       1.0        |      0.713      |
 +-------------------+---------------+------------------------+------------------+-----------------+
-
-
 </pre>
 </div>
 </div>
@@ -1128,7 +1004,7 @@ Classifer 3 - ?
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong> <br>
-Looking at the nature of the problem, test F1 score should be the most importatant factor in deciding which model to be used in such cases. Looking at the results <b>Support Vector Machine</b> would the most appropriate model to use here.</p>
+In terms of training time GaussianNB shows best results though Decision Tree outreach when it comes to time required for prediction. However, looking at the nature of the problem, it is more important for the application to have accurate results than anything else and hence in circumstances like these it is okay to trade off training time for performance. Test F1 score would be the most importatant factor in deciding which model to be used in such cases. <b>Support Vector Machine</b> beats the other two and would the most appropriate model to use here.</p>
 
 </div>
 </div>
@@ -1150,6 +1026,8 @@ Looking at the nature of the problem, test F1 score should be the most importata
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong> 
 Support Vector Machine (SVM) linear classifier which assume that your data are linearly separable. The algorithm attempts to find an optimal vector that separates all the students in two categories - students will pass and students who pass.  The algorithm would like to separate the instances by a maximum margin, that helps for the most of the students to more likely to be classified correctly.</p>
+<p>Support Vector Machines are based on the concept of decision planes that define decision boundaries. A decision plane is one that separates between a set of objects having different class memberships. The illustration below shows the basic idea behind Support Vector Machines. Here we see the original objects (left side of the schematic) mapped, i.e., rearranged, using a set of mathematical functions, known as kernels. The process of rearranging the objects is known as mapping (transformation). Note that in this new setting, the mapped objects (right side of the schematic) is linearly separable and, thus, instead of constructing the complex curve (left schematic), all we have to do is to find an optimal line that can separate pass(GREEN) and fail(RED) students.</p>
+<p><img src="http://www.statsoft.com/textbook/graphics/SVMIntro3.gif" alt="image3"></p>
 
 </div>
 </div>
@@ -1180,18 +1058,24 @@ Support Vector Machine (SVM) linear classifier which assume that your data are l
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[227]:</div>
+<div class="prompt input_prompt">In&nbsp;[270]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Import &#39;GridSearchCV&#39; and &#39;make_scorer&#39;</span>
 <span class="kn">from</span> <span class="nn">sklearn.grid_search</span> <span class="kn">import</span> <span class="n">GridSearchCV</span> 
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">make_scorer</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">f1_score</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">Normalizer</span>
+
+<span class="n">normer</span> <span class="o">=</span> <span class="n">Normalizer</span><span class="p">()</span>
+<span class="n">X_train</span> <span class="o">=</span> <span class="n">normer</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_test</span> <span class="o">=</span> <span class="n">normer</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
 
 <span class="c1"># TODO: Create the parameters list you wish to tune</span>
-<span class="c1">#parameters = {&#39;C&#39;:1.0, &#39;kernel&#39;:&#39;rbf&#39;, &#39;gamma&#39;:&#39;auto&#39;, &#39;random_state&#39;:&#39;None&#39;}</span>
-<span class="n">parameters</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;kernel&#39;</span><span class="p">:(</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span> <span class="s1">&#39;rbf&#39;</span><span class="p">,</span> <span class="s1">&#39;poly&#39;</span><span class="p">),</span><span class="s1">&#39;C&#39;</span><span class="p">:(</span><span class="mf">1.0</span><span class="p">,</span><span class="mf">2.0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">),</span><span class="s1">&#39;gamma&#39;</span><span class="p">:(</span><span class="mf">0.001</span><span class="p">,</span><span class="mf">0.1</span><span class="p">)}</span>
-
+<span class="c1">#parameters = {&#39;kernel&#39;:(&#39;linear&#39;, &#39;rbf&#39;, &#39;poly&#39;),&#39;C&#39;:(100,200),&#39;gamma&#39;:(0.001,0.002),&#39;tol&#39;:(0.001,0.002)}</span>
+<span class="n">C_range</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
+<span class="n">gamma_range</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
+<span class="n">parameters</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">gamma</span><span class="o">=</span><span class="n">gamma_range</span><span class="p">,</span> <span class="n">C</span><span class="o">=</span><span class="n">C_range</span><span class="p">)</span>
 
 <span class="c1"># TODO: Initialize the classifier</span>
 <span class="n">clf</span> <span class="o">=</span> <span class="n">svm</span><span class="o">.</span><span class="n">SVC</span><span class="p">()</span>
@@ -1207,6 +1091,8 @@ Support Vector Machine (SVM) linear classifier which assume that your data are l
 
 <span class="c1"># Get the estimator</span>
 <span class="n">clf</span> <span class="o">=</span> <span class="n">grid_obj</span><span class="o">.</span><span class="n">best_estimator_</span>
+
+<span class="k">print</span> <span class="n">clf</span>
 
 <span class="n">f1_score_train</span><span class="p">,</span> <span class="n">prediction_time_train</span> <span class="o">=</span> <span class="n">predict_labels</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 <span class="n">f1_score_test</span><span class="p">,</span> <span class="n">prediction_time_test</span> <span class="o">=</span> <span class="n">predict_labels</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span>
@@ -1226,8 +1112,12 @@ Support Vector Machine (SVM) linear classifier which assume that your data are l
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Tuned model has a training F1 score of 0.9717.
-Tuned model has a testing F1 score of 0.7919.
+<pre>SVC(C=31.622776601683793, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape=None, degree=3, gamma=0.31622776601683794,
+  kernel=&apos;rbf&apos;, max_iter=-1, probability=False, random_state=None,
+  shrinking=True, tol=0.001, verbose=False)
+Tuned model has a training F1 score of 0.8387.
+Tuned model has a testing F1 score of 0.7887.
 </pre>
 </div>
 </div>
@@ -1252,8 +1142,8 @@ Tuned model has a testing F1 score of 0.7919.
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong> <br>
-Tuned model has a training F<sub>1</sub>  score of 0.9717. <br>
-Tuned model has a testing F<sub>1</sub>  score of 0.7919.</p>
+Tuned model has a training F<sub>1</sub>  score of 0.8387. <br>
+Tuned model has a testing F<sub>1</sub>  score of 0.7887.</p>
 <p>Though tunned model takes much longer to process, the prediction is much better than untuned model.</p>
 
 </div>
