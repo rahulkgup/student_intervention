@@ -769,7 +769,7 @@ Test set = 67.37%
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[264]:</div>
+<div class="prompt input_prompt">In&nbsp;[275]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Import the three supervised learning models from sklearn</span>
@@ -786,9 +786,9 @@ Test set = 67.37%
 
 <span class="n">clfs</span> <span class="o">=</span> <span class="p">[</span><span class="bp">None</span><span class="p">]</span><span class="o">*</span><span class="mi">3</span>
 <span class="c1"># TODO: Initialize the three models</span>
-<span class="n">clfs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">svm</span><span class="o">.</span><span class="n">SVC</span><span class="p">(</span><span class="n">kernel</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">)</span>
+<span class="n">clfs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">svm</span><span class="o">.</span><span class="n">SVC</span><span class="p">(</span><span class="n">kernel</span><span class="o">=</span><span class="s1">&#39;linear&#39;</span><span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">clfs</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">naive_bayes</span><span class="o">.</span><span class="n">GaussianNB</span><span class="p">()</span>
-<span class="n">clfs</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">DecisionTreeClassifier</span><span class="p">()</span>
+<span class="n">clfs</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">DecisionTreeClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
 
 <span class="c1"># TODO: Set up the training set sizes</span>
 <span class="c1"># TODO: Execute the &#39;train_predict&#39; function for each classifier and each training set size</span>
@@ -820,34 +820,34 @@ Test set = 67.37%
 <pre>
 Tabular Results
 
-Classifer - SVC : 
+Classifier - SVC: 
 
 +-------------------+---------------+------------------------+------------------+-----------------+
 | Training Set Size | Training Time | Prediction Time (test) | F1 Score (train) | F1 Score (test) |
 +-------------------+---------------+------------------------+------------------+-----------------+
-|        100        |     0.009     |          0.0           |      0.8806      |      0.7463     |
-|        200        |     0.018     |         0.001          |      0.8622      |      0.7647     |
-|        300        |     0.042     |         0.001          |      0.8421      |      0.7826     |
+|        100        |     0.002     |         0.001          |      0.7805      |      0.7662     |
+|        200        |     0.002     |         0.001          |      0.7988      |      0.7662     |
+|        300        |     0.006     |         0.001          |      0.8142      |      0.7662     |
 +-------------------+---------------+------------------------+------------------+-----------------+
 
-Classifer - GaussianNB : 
-
-+-------------------+---------------+------------------------+------------------+-----------------+
-| Training Set Size | Training Time | Prediction Time (test) | F1 Score (train) | F1 Score (test) |
-+-------------------+---------------+------------------------+------------------+-----------------+
-|        100        |     0.001     |          0.0           |      0.855       |      0.7481     |
-|        200        |     0.001     |         0.001          |      0.8321      |      0.7132     |
-|        300        |     0.002     |         0.001          |      0.8088      |       0.75      |
-+-------------------+---------------+------------------------+------------------+-----------------+
-
-Classifer - DecisionTreeClassifier : 
+Classifier - GaussianNB: 
 
 +-------------------+---------------+------------------------+------------------+-----------------+
 | Training Set Size | Training Time | Prediction Time (test) | F1 Score (train) | F1 Score (test) |
 +-------------------+---------------+------------------------+------------------+-----------------+
-|        100        |     0.001     |          0.0           |       1.0        |      0.6903     |
-|        200        |     0.002     |          0.0           |       1.0        |       0.72      |
-|        300        |     0.003     |          0.0           |       1.0        |      0.713      |
+|        100        |      0.0      |          0.0           |      0.8189      |      0.7231     |
+|        200        |     0.001     |         0.001          |      0.8078      |      0.704      |
+|        300        |     0.001     |          0.0           |      0.7899      |      0.7368     |
++-------------------+---------------+------------------------+------------------+-----------------+
+
+Classifier - DecisionTreeClassifier: 
+
++-------------------+---------------+------------------------+------------------+-----------------+
+| Training Set Size | Training Time | Prediction Time (test) | F1 Score (train) | F1 Score (test) |
++-------------------+---------------+------------------------+------------------+-----------------+
+|        100        |     0.002     |          0.0           |       1.0        |      0.6422     |
+|        200        |     0.003     |          0.0           |       1.0        |      0.7143     |
+|        300        |     0.007     |          0.0           |       1.0        |      0.6667     |
 +-------------------+---------------+------------------------+------------------+-----------------+
 </pre>
 </div>
